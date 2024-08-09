@@ -48,6 +48,17 @@ internal class Program
                     break;
             }
     }
+
+    static int suma(int numero1, int numero2)
+    {
+        int resultado = numero1+numero2 ;
+        return resultado ;
+    }
+
+    static void segundoMetodo()
+    {
+        Console.WriteLine("hello world");
+    }
     
 
     private static void Main(string[] args)
@@ -58,7 +69,7 @@ internal class Program
         Console.WriteLine("Introduce el segundo numero");
         int num2 = int.Parse(Console.ReadLine());
 
-        int resultado = num1 + num2;
+        int resultado = suma(num1,num2);
 
         Console.WriteLine($"El resultado de la suma es: {resultado}");
     }
