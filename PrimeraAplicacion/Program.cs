@@ -35,6 +35,7 @@ internal class Program
         {
             Console.WriteLine(i);
         }
+
         switch (i)
         {
             case 0:
@@ -72,21 +73,21 @@ internal class Program
 
     static void ingresoDatos()
     {
-        Console.WriteLine("Introduce el primer numero");
+        Console.WriteLine("introduce el primer numero");
         int num1 = int.Parse(Console.ReadLine());
 
-        Console.WriteLine("Introduce el segundo numero");
+        Console.WriteLine("introduce el segundo numero");
         int num2 = int.Parse(Console.ReadLine());
 
-        Console.WriteLine($"El resultado de la suma es: {suma(num1, num2)}");
+        Console.WriteLine($"el resultado de la suma es: {suma(num1, num2)}");
     }
 
     private static void Main(string[] args)
     {
         int numero1 = 12;
         int numero2 = 25;
-
-        Console.WriteLine(Suma(numero1, numero2));
-
+        ingresoDatos();
+        Console.WriteLine(Suma(numero1,numero2,numero1));
+       
     }
 }
