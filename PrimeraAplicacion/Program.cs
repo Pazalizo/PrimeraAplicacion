@@ -78,9 +78,7 @@ internal class Program
         Console.WriteLine("Introduce el segundo numero");
         int num2 = int.Parse(Console.ReadLine());
 
-        int resultado = suma(num1, num2);
-
-        Console.WriteLine($"El resultado de la suma es: {resultado}");
+        Console.WriteLine($"El resultado de la suma es: {suma(num1, num2)}");
     }
 
     private static void Main(string[] args)
