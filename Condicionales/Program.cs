@@ -26,7 +26,7 @@ internal class Program
         else Console.WriteLine("Espere unos years");
     }
 
-    static void usoSwitchCase(int opcion, double numero1, double numero2)
+    static void logicaCalculadora(int opcion, double numero1, double numero2)
     {
         switch (opcion)
         {
@@ -70,9 +70,10 @@ internal class Program
         do
         {
             opcion = seleccion();
+            if (opcion == 4) continue;
             double numero1 = solicitarNumero();
             double numero2 = solicitarNumero();
-            
+            logicaCalculadora(opcion, numero1, numero2);
         }
         while (opcion != 4);
     }
