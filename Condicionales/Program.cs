@@ -13,14 +13,15 @@ internal class Program
             Console.WriteLine("Tienes Pase?");
             pase = Console.ReadLine();
             int comparar = String.Compare(pase, "si", true);
-            if (comparar == 1)
+            if (comparar == 0) Console.WriteLine("No necesita");
+            else
             {
                 Console.WriteLine("Ya le colaboro");
                 Console.Beep();
                 string url = "https://www.ceadelllano.com/";
                 Process.Start(new ProcessStartInfo(url) { UseShellExecute = true });
             }
-            else Console.WriteLine("No necesita");
+            
         }
         else Console.WriteLine("Espere unos years");
         
