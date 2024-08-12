@@ -8,7 +8,7 @@ internal class Program
         for (int i = 0; i < 5; i++)
         {
             Console.WriteLine("el valor de i: " + i);
-        }
+        }   
 
         // Bucle While
         int k = 0;
