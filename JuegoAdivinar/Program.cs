@@ -15,13 +15,9 @@
     static void juegoAdivinar()
     {
         Console.WriteLine("Bienvenido al juego");
-        int numero = solicitarNumero();
+        //int numero = solicitarNumero();
         int numeroAleatorio = generarNumeroAleatorio();
         int contador = 0;
-        do
-        {
-            if (numero)
-        }
     }
     private static void Main(string[] args)
     {
