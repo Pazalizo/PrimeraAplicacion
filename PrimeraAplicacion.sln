@@ -5,7 +5,9 @@ VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrimeraAplicacion", "PrimeraAplicacion\PrimeraAplicacion.csproj", "{191B3951-741E-4143-B13C-20E7468CD9B8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Condicionales", "Condicionales\Condicionales.csproj", "{A6299D79-38AC-4F1C-A8D1-7384FDA42F45}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Condicionales", "Condicionales\Condicionales.csproj", "{A6299D79-38AC-4F1C-A8D1-7384FDA42F45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JuegoAdivinar", "JuegoAdivinar\JuegoAdivinar.csproj", "{DE4163EA-DCC0-4009-B770-66960C84784B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{A6299D79-38AC-4F1C-A8D1-7384FDA42F45}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A6299D79-38AC-4F1C-A8D1-7384FDA42F45}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A6299D79-38AC-4F1C-A8D1-7384FDA42F45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE4163EA-DCC0-4009-B770-66960C84784B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE4163EA-DCC0-4009-B770-66960C84784B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE4163EA-DCC0-4009-B770-66960C84784B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE4163EA-DCC0-4009-B770-66960C84784B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

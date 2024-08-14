@@ -17,6 +17,7 @@ internal class Program
             else
             {
                 Console.WriteLine("Ya le colaboro");
+                
                 Console.Beep();
                 string url = "https://www.ceadelllano.com/";
                 Process.Start(new ProcessStartInfo(url) { UseShellExecute = true });
