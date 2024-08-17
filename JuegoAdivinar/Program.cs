@@ -14,38 +14,47 @@
     }
     static void juegoAdivinar()
     {
-        Console.WriteLine("Bienvenido al juego");
-        int numeroMenor = 1;
-        int numero = 0;
-        int numeroMayor = 10;
-        int numeroAleatorio = generarNumeroAleatorio(numeroMenor, numeroMayor);
-        int contador = 0;
+        int opcionRepeticion = 0;
         do
         {
-            try
+            Console.WriteLine("Bienvenido al juego");
+            int numeroMenor = 1;
+            int numero = 0;
+            int numeroMayor = 10;
+            int numeroAleatorio = generarNumeroAleatorio(numeroMenor, numeroMayor);
+            int contador = 0;
+            do
             {
-                numero = solicitarNumero(numeroMenor, numeroMayor);
-                contador++;
+                try
+                {
+                    numero = solicitarNumero(numeroMenor, numeroMayor);
+                    contador++;
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine("ingrese un numero entero, que no lee?");
+                }
+
+                if (numero == numeroAleatorio)
+                {
+                    Console.WriteLine($"Ganaste el juego el numero era {numero}, ganaste con {contador} intentos");
+                }
+                else if (numero < numeroAleatorio)
+                {
+                    numeroMenor = numero;
+                }
+                else
+                {
+                    numeroMayor = numero;
+                }
             }
-            catch (Exception ex)
-            {
-                Console.WriteLine("ingrese un numero entero, que no lee?");
-            }
-            
-            if (numero == numeroAleatorio)
-            {
-                Console.WriteLine($"Ganaste el juego el numero era {numero}, ganaste con {contador} intentos");
-            }
-            else if (numero < numeroAleatorio)
-            {
-                numeroMenor = numero;
-            }
-            else
-            {
-                numeroMayor = numero;
-            }
+            while (numero != numeroAleatorio);
+            Console.WriteLine("Desea volver a ejecutar el juego?");
+            string respuestaRepeticion = Console.ReadLine();
+            opcionRepeticion = String.Compare(respuestaRepeticion, "si", true);
+
         }
-        while (numero != numeroAleatorio);
+        while (opcionRepeticion == 0);
     }
     private static void Main(string[] args)
     {
