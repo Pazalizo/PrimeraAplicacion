@@ -30,11 +30,14 @@
                     numero = solicitarNumero(numeroMenor, numeroMayor);
                     contador++;
                 }
-                catch (Exception ex)
+                catch (Exception e) when (e.GetType()!=typeof(FormatException))
                 {
-                    Console.WriteLine("ingrese un numero entero, que no lee?");
+                    Console.WriteLine("hubo un error en el codigo");
                 }
-
+                catch (FormatException)
+                {
+                    Console.WriteLine("Ingresaste una letra, tiene que ser un numero");
+                }
                 if (numero == numeroAleatorio)
                 {
                     Console.WriteLine($"Ganaste el juego el numero era {numero}, ganaste con {contador} intentos");
@@ -52,7 +55,6 @@
             Console.WriteLine("Desea volver a ejecutar el juego?");
             string respuestaRepeticion = Console.ReadLine();
             opcionRepeticion = String.Compare(respuestaRepeticion, "si", true);
-
         }
         while (opcionRepeticion == 0);
     }
