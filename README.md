@@ -1,7 +1,7 @@
 Lista de los Repos de los otros Estudiantes
 
-Jorge: https://github.com/jorgeStevenR/verbose-parakeet
+Jorge: https://github.com/jorgeStevenR/Primeros_Pasos
 
-Bro: https://github.com/JosehpCR/Practicando-C-
+Bro: https://github.com/JosehpCR/Practicando-C-Sharp
 
-Vigoya: Algun dia
+Vigoya: https://github.com/DvigoyaL/estudiando-C
