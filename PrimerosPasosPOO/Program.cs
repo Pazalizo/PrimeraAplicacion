@@ -1,22 +1,13 @@
-﻿internal class Program
+﻿using PrimerosPasosPOO;
+
+internal class Program
 {
     class Circulo
     {
         private const double pi = Math.PI;
         public double CalcularArea(int radio)
         {
-            return pi * radio*radio;
-        }
-    }
-
-    class Persona
-    {
-        private string nombrePersona;
-        private int edad;
-        private int cedula;
-        public Persona()
-        {
-            this.edad = edad;
+            return pi * radio * radio;
         }
     }
 
@@ -37,10 +28,10 @@
     }
     private static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
-        Circulo circulo1 = new Circulo();
-        Carro carro = new Carro();
-        Console.WriteLine(circulo1.CalcularArea(53));
-        Console.WriteLine(carro.infoCarro());
+        Punto puntico = new Punto(32,45);
+        puntico.MostrarValores();
+        Punto puntico2 = new Punto(23, 17);
+        Console.WriteLine(puntico.CalcularDistancia(puntico2));
     }
+    
 }
