@@ -32,6 +32,9 @@ internal class Program
         puntico.MostrarValores();
         Punto puntico2 = new Punto(23, 17);
         Console.WriteLine(puntico.CalcularDistancia(puntico2));
+        Persona Laura = new Persona("Laura", 25, 1121960568);
+
+
     }
     
 }
