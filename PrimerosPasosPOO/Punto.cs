@@ -32,7 +32,7 @@ namespace PrimerosPasosPOO
         {
             int xDif = this.x - otroPunto.x;
             int yDif = this.x - otroPunto.y;
-            return xDif * yDif;
+            return xDif * yDif; 
         }
 
     }

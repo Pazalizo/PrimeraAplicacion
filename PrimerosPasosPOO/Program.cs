@@ -32,6 +32,19 @@ internal class Program
         puntico.MostrarValores();
         Punto puntico2 = new Punto(23, 17);
         Console.WriteLine(puntico.CalcularDistancia(puntico2));
+
+        int[] primerArray = {4};
+        Persona[] arrayPersonas = new Persona[2];
+
+        arrayPersonas[0] = new Persona("Felipe",321412123,212312313);
+        arrayPersonas[1] = new Persona("Conan", 421312412, 123123);
+
+        
+        for (int i = 0; i < arrayPersonas.Length; i++) 
+        {
+            Console.WriteLine(arrayPersonas[i]);
+        }
+
     }
     
 }
