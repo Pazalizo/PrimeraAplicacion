@@ -3,9 +3,59 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrimeraAplicacion", "PrimeraAplicacion\PrimeraAplicacion.csproj", "{191B3951-741E-4143-B13C-20E7468CD9B8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Condicionales", "Condicionales\Condicionales.csproj", "{A6299D79-38AC-4F1C-A8D1-7384FDA42F45}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JuegoAdivinar", "JuegoAdivinar\JuegoAdivinar.csproj", "{DE4163EA-DCC0-4009-B770-66960C84784B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UsoPOO", "UsoPOO\UsoPOO.csproj", "{3E53D95B-EC3D-4902-B08D-5327764A74E5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrimerosPasosPOO", "PrimerosPasosPOO\PrimerosPasosPOO.csproj", "{FC485BC4-E3A8-4E87-937F-723118B19A3F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PildorasInformaticas", "PildorasInformaticas", "{2B368214-DE86-42CE-837F-63123ADCAB9D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TecnologiasAvanzadas", "TecnologiasAvanzadas", "{42DE8B8D-BB4A-4B79-8040-E8006331DCB9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POO", "POO\POO.csproj", "{79F69D44-6B66-49B9-B24F-6FD9CB1012E5}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{191B3951-741E-4143-B13C-20E7468CD9B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{191B3951-741E-4143-B13C-20E7468CD9B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{191B3951-741E-4143-B13C-20E7468CD9B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{191B3951-741E-4143-B13C-20E7468CD9B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6299D79-38AC-4F1C-A8D1-7384FDA42F45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6299D79-38AC-4F1C-A8D1-7384FDA42F45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6299D79-38AC-4F1C-A8D1-7384FDA42F45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6299D79-38AC-4F1C-A8D1-7384FDA42F45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE4163EA-DCC0-4009-B770-66960C84784B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE4163EA-DCC0-4009-B770-66960C84784B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE4163EA-DCC0-4009-B770-66960C84784B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE4163EA-DCC0-4009-B770-66960C84784B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E53D95B-EC3D-4902-B08D-5327764A74E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E53D95B-EC3D-4902-B08D-5327764A74E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E53D95B-EC3D-4902-B08D-5327764A74E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E53D95B-EC3D-4902-B08D-5327764A74E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC485BC4-E3A8-4E87-937F-723118B19A3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC485BC4-E3A8-4E87-937F-723118B19A3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC485BC4-E3A8-4E87-937F-723118B19A3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC485BC4-E3A8-4E87-937F-723118B19A3F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{191B3951-741E-4143-B13C-20E7468CD9B8} = {2B368214-DE86-42CE-837F-63123ADCAB9D}
+		{A6299D79-38AC-4F1C-A8D1-7384FDA42F45} = {2B368214-DE86-42CE-837F-63123ADCAB9D}
+		{DE4163EA-DCC0-4009-B770-66960C84784B} = {2B368214-DE86-42CE-837F-63123ADCAB9D}
+		{3E53D95B-EC3D-4902-B08D-5327764A74E5} = {2B368214-DE86-42CE-837F-63123ADCAB9D}
+		{FC485BC4-E3A8-4E87-937F-723118B19A3F} = {2B368214-DE86-42CE-837F-63123ADCAB9D}
+		{79F69D44-6B66-49B9-B24F-6FD9CB1012E5} = {42DE8B8D-BB4A-4B79-8040-E8006331DCB9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CCFEE3B1-8F3F-415E-8D59-109EF92D560D}
