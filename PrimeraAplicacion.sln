@@ -19,7 +19,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TecnologiasAvanzadas", "Tec
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "POO", "POO\POO.csproj", "{79F69D44-6B66-49B9-B24F-6FD9CB1012E5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PruebaInterfaces", "PruebaInterfaces\PruebaInterfaces.csproj", "{3EBE12E8-DAA3-4E0C-B422-DA83E7D81A03}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PruebaInterfaces", "PruebaInterfaces\PruebaInterfaces.csproj", "{3EBE12E8-DAA3-4E0C-B422-DA83E7D81A03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinQ", "LinQ\LinQ.csproj", "{CFF80ADD-3327-496B-8E5D-8A299531D76B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -55,6 +57,10 @@ Global
 		{3EBE12E8-DAA3-4E0C-B422-DA83E7D81A03}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3EBE12E8-DAA3-4E0C-B422-DA83E7D81A03}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3EBE12E8-DAA3-4E0C-B422-DA83E7D81A03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFF80ADD-3327-496B-8E5D-8A299531D76B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFF80ADD-3327-496B-8E5D-8A299531D76B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFF80ADD-3327-496B-8E5D-8A299531D76B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFF80ADD-3327-496B-8E5D-8A299531D76B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -67,6 +73,7 @@ Global
 		{FC485BC4-E3A8-4E87-937F-723118B19A3F} = {2B368214-DE86-42CE-837F-63123ADCAB9D}
 		{79F69D44-6B66-49B9-B24F-6FD9CB1012E5} = {42DE8B8D-BB4A-4B79-8040-E8006331DCB9}
 		{3EBE12E8-DAA3-4E0C-B422-DA83E7D81A03} = {42DE8B8D-BB4A-4B79-8040-E8006331DCB9}
+		{CFF80ADD-3327-496B-8E5D-8A299531D76B} = {42DE8B8D-BB4A-4B79-8040-E8006331DCB9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CCFEE3B1-8F3F-415E-8D59-109EF92D560D}
