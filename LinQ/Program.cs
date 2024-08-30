@@ -31,5 +31,33 @@
         {
             Console.WriteLine($"Par: {item}");
         }
+
+        Salario salarioFelipe = new Salario();
+
+        salarioFelipe.SALARIO = 1200;
+
+        Console.WriteLine(salarioFelipe.SALARIO);
+
+    }
+
+    class Salario()
+    {
+        private double cantidadSalario;
+        void establecerSalario(double cantidadSalario)
+        {
+            if (cantidadSalario < 0)
+            {
+                Console.WriteLine("El salario no puede ser negativo, se pondra 0");
+                this.cantidadSalario = 0;
+            }
+            else this.cantidadSalario = cantidadSalario;
+        }
+
+        public double SALARIO
+        {
+            get => this.cantidadSalario;
+            set => this.establecerSalario(value);
+        }
+
     }
 }
